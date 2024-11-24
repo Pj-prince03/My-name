@@ -9,24 +9,28 @@
     width: 100%;
     background-image: url(./WhatsApp\ Image\ 2024-11-22\ at\ 21.18.49_5b4e14ae.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
     color: #fff;
-    font-size: 100px;
-    font-weight: 500;
+    font-size:xx-large ;
+    font-weight: bold;
+    font-style: italic;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 73%;
     transform: translate(-50%,-50%);
 }
 
-.text{
+p{
     color: #fff;
-    font-size: medium;
-    font-style: italic;
+    font-size: larger;
+    font-weight: 500;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    margin: 2em;
+    top: 35%;
+    left: 73%;
     transform: translate(-50%,-50%);
 }
